@@ -1,0 +1,47 @@
+* {
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+}
+
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    background-color: bisque;
+}
+
+main {
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#likes {
+    display: flex;
+    flex-direction: column;
+}
+
+.parent {
+    background-color: red;
+}
+
+ul li {
+    background-color: green;
+}
+
+ul>li {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+ul>li>ol {
+    background-color: pink;
+}
+
+.heading {
+    background-color: brown;
+    padding: 10px;
+}
